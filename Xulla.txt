@@ -2,11 +2,14 @@
 Firestore Database HTML+JS
 --------------------------
 
-Consultes-> Firestore potents: filtres, ordres, múltiples camps. Realtime: limitades: no pots fer consultes complexes
+Consultes-> Firestore potents: filtres, ordres, múltiples camps. Realtime: limitades: 
+no pots fer consultes complexes
 
-El index HTML té només HTML, CSS i JS, per tant es només forntend. Val a dir que el backend li'l proporciona Firebase  i l'ús de Firestore Database que fa de Backend-as-a-Service (BaaS).
+El index HTML té només HTML, CSS i JS, per tant es només forntend. Val a dir que el backend 
+li'l proporciona Firebase  i l'ús de Firestore Database que fa de Backend-as-a-Service (BaaS).
 
-S'inclouen els scripts de Firebase (compatibilitat amb versions anteriors) i la llibreria md5 per xifrar contrasenyes.
+S'inclouen els scripts de Firebase (compatibilitat amb versions anteriors) i la llibreria md5 
+per xifrar contrasenyes.
 
 Tenim un mínim CSS per fer més llegible la interfície.
 
