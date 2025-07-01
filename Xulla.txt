@@ -1,0 +1,34 @@
+--------------------------
+Firestore Database HTML+JS
+--------------------------
+
+Consultes-> Firestore potents: filtres, ordres, múltiples camps. Realtime: limitades: no pots fer consultes complexes
+
+El index HTML té només HTML, CSS i JS, per tant es només forntend. Val a dir que el backend li'l proporciona Firebase  i l'ús de Firestore Database que fa de Backend-as-a-Service (BaaS).
+
+S'inclouen els scripts de Firebase (compatibilitat amb versions anteriors) i la llibreria md5 per xifrar contrasenyes.
+
+Tenim un mínim CSS per fer més llegible la interfície.
+
+El body conté dues seccions:
+
+        #login: per iniciar sessió amb Google.
+
+        #app: per afegir usuaris i mostrar la llista.
+
+· Tenim funcions d’autenticació: login i logout
+· Afegir usuaris a Firestore: function afegirUsuari() 
+· Eliminar usuaris: function eliminarUsuari(id) 
+· Llistat en temps real: Utilitza onSnapshot per escoltar canvis en temps real.
+· Gestió de l'estat d'autenticació
+
+auth.onAuthStateChanged(user => {
+  if (user) {
+    // Mostra l’app
+  } else {
+    // Mostra el login
+  }
+});
+
+Canvia la visibilitat de l’#app i #login segons si l’usuari està autenticat.
+
